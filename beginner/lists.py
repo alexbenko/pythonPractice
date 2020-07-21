@@ -5,7 +5,7 @@ def listPrac(foo):
 #listPrac(["Hello", 123,1.2345])
 
 #if the item in the list is a type of number, double it
-def doubleList(data=["foobar",1,24,"banana"]):
+def doubleList(data=["foobar",1,24,"banana",1.23]):
   for i in range(len(data)):
     print(i)
     if isinstance(data[i],int) or isinstance(data[i],float):
