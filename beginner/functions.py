@@ -17,5 +17,25 @@ def countLetters(word):
 
 #print(countLetters("Alexander"))
 
+def biggest(bucket):
+  print(bucket[0])
+  big = bucket[0]
+
+  for i in bucket:
+    if bucket[i] >= big:
+      big = bucket[i]
+
+  return big
+
+test = (1,2,3)
+
+print(biggest(test))
+
+
+
+
+
+
+
 
 
