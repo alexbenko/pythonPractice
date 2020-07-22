@@ -27,7 +27,12 @@ def removeString(data = ['foobar',1,24,'banana']):
 
   return data
 
+#print(removeString())
+
+def toSort(data=[9,4,6,1,3,2]):
+  data.sort()
+  output = data
+  return output
 
 
-print(removeString()
-)
+print(toSort())
