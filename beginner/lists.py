@@ -16,5 +16,18 @@ def doubleList(data=["foobar",1,24,"banana",1.23]):
       continue
   return data
 
+#print(doubleList())
 
-print(doubleList())
+
+def removeString(data = ['foobar',1,24,'banana']):
+  for i in data:
+    if isinstance(i,str):
+      print('Removing String...')
+      data.remove(i)
+
+  return data
+
+
+
+print(removeString()
+)
