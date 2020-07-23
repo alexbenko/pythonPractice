@@ -18,17 +18,6 @@ def doubleList(data=["foobar",1,24,"banana",1.23]):
 
 #print(doubleList())
 
-
-def removeString(data = ['foobar',1,24,'banana']):
-  for i in data:
-    if isinstance(i,str):
-      print('Removing String...')
-      data.remove(i)
-
-  return data
-
-#print(removeString())
-
 def toSort(data=[9,4,6,1,3,2]):
   data.sort()
   output = data
