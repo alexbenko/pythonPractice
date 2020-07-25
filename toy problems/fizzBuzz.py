@@ -1,5 +1,5 @@
 def fizzBuzz(x):
-  if x % 5 == 0 & x % 3 == 0:
+  if x % 5 == 0 and x % 3 == 0:
     print("FizzBuzz")
   elif x % 5 == 0:
     print("Buzz")
@@ -8,4 +8,5 @@ def fizzBuzz(x):
   else:
     print("Foobar")
 
-fizzBuzz(15)
+fizzBuzz(3)
+#=>"Fizz"
