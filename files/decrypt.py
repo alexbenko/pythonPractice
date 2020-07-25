@@ -11,9 +11,8 @@
 def decrypt(password="CBArab00Z"):
   flipped = password[::-1]
   decrypted = ""
-  print(len(flipped))
+
   for char in flipped:
-    print(char)
     if char == "Z":
       decrypted += "f"
     elif char == "A":
