@@ -12,7 +12,7 @@ def encrypt(password="foobar123"):
     elif char == "o":
       encrypted += "0"
     elif char == "f":
-      encrypted += "ZZ"
+      encrypted += "Z"
     else:
       encrypted += char
 
@@ -20,7 +20,6 @@ def encrypt(password="foobar123"):
   print(encrypted)
   return encrypted
 
-encrypt()
 
 def savePasswords(passwords=["foobar123"]):
   file = open("passwords.txt","w+")
