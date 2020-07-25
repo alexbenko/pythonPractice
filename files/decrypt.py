@@ -23,6 +23,7 @@ def decrypt(fileName="passwords.txt"):
          decrypted += "f"
        elif char == "A":
           decrypted += "1"
+       elif char ==
 
 
 
