@@ -1,2 +1,4 @@
 passwords.txt
 *.txt
+__pycache__
+.vscode
