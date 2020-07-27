@@ -1,7 +1,12 @@
 from random import randint
 
-def isMatch(toMatch=1001):
-  i = 0
+def isMatch():
+  userInput = input('Enter a whole number to randomy generate to:')
+  if('.' in userInput):
+    userInput = input('Please Enter a whole number to randomy generate to:')
+
+  toMatch = int(userInput)
+  i = 1
 
   current = randint(0,toMatch)
   match = current == toMatch
