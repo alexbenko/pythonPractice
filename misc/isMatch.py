@@ -11,7 +11,6 @@ def isMatch():
   current = randint(0,toMatch)
   i = 1
 
-
   while True:
     if(current == toMatch):
       break
