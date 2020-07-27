@@ -4,5 +4,5 @@
 
 <ol> 
   <h2>Highlights:</h2>
-  <li> Random Number Match Function : </li>
+  <li> Random Number Match Function : https://github.com/alexbenko/pythonPractice/blob/master/misc/isMatch.py</li>
 </ol>
