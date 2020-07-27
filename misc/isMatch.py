@@ -1,7 +1,7 @@
 from random import randint
 
 def isMatch():
-  userInput = input('Enter a whole number to randomy generate to: ')
+  userInput = input('Enter a whole number to randomly generate to: ')
 
   #simple way to test for decimals
   if('.' in userInput):
