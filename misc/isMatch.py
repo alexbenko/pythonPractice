@@ -4,7 +4,7 @@ def isMatch():
   userInput = input('Enter a whole number to randomly generate to: ')
 
   #simple way to test for decimals
-  if('.' in userInput):
+  if '.' in userInput:
     userInput = input('Please Enter a whole number to randomy generate to: ')
 
   toMatch = int(userInput)
