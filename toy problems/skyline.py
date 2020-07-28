@@ -19,4 +19,4 @@ def skyline(word):
 
 
 print(skyline("anthropomorphism"))
-#[letter for letter in lowered if not ].join()
+#=>aNtHrOpOmOrPhIsM
