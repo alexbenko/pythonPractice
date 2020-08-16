@@ -156,7 +156,7 @@ def ticTac():
     moves += 1
 
     if moves >=3:
-      print(f'At {moves }total moves detected, checking for Winner...')
+      print(f'{moves}total moves detected, checking for Winner...')
       if checkForWinner(row1,row2,row3) == 'X':
         print(f'{player1} is the Winner!')
         break
