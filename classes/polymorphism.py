@@ -24,4 +24,4 @@ def poly(thing):
 poly(Goose)
 #=>My name is Goose and I am a kitty
 poly(Kaia)
-#=>My name is Kaia,I have 12 many spots, and I am a doggy
+#=>My name is Kaia,I have 12 spots, and I am a doggy
