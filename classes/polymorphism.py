@@ -12,7 +12,7 @@ class Doggy:
     this.spots = spots
 
   def speak(this):
-    print(f'My name is {this.name},I have {this.spots} many spots, and I am a doggy')
+    print(f'My name is {this.name},I have {this.spots} spots, and I am a doggy')
 
 
 Goose = Kitty('Goose')
