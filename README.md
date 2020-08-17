@@ -10,4 +10,5 @@
   Inheritance: https://github.com/alexbenko/pythonPractice/blob/master/classes/Dog.py
   <li>Tic Tac Toe Game: https://github.com/alexbenko/pythonPractice/blob/master/toy%20problems/tictac.py</li>
   <li>Polymorphism: https://github.com/alexbenko/pythonPractice/blob/master/classes/polymorphism.py</li>
+  <li>Using built python methods like print() on custome classes: https://github.com/alexbenko/pythonPractice/blob/master/classes/magic.py</li>
 </ol>
