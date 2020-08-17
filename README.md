@@ -9,4 +9,5 @@
   <li>Read File, Interpret Data, and save it to new file: https://github.com/alexbenko/pythonPractice/blob/master/files/decrypt.py/<li>
   Inheritance: https://github.com/alexbenko/pythonPractice/blob/master/classes/Dog.py
   <li>Tic Tac Toe Game: https://github.com/alexbenko/pythonPractice/blob/master/toy%20problems/tictac.py</li>
+  <li>Polymorphism: https://github.com/alexbenko/pythonPractice/blob/master/classes/polymorphism.py</li>
 </ol>
