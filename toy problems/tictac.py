@@ -28,7 +28,7 @@ def getRow(currentPiece,player1,player2):
       else:
         whichRow = int(input(f'{player2} which row would you like to play your piece? [1,2,3]: '))
     except ValueError:
-      print('Invalid Input, Please Try Again')
+      print('Invalid Input, Please Only type the numbers 1,2,3 Please Try Again')
       continue
     if whichRow == 1 or whichRow == 2 or whichRow == 3:
       return whichRow
