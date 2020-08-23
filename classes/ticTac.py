@@ -61,9 +61,8 @@ class TicTacToe:
     rows = [this.row1,this.row2,this.row3]
 
     for row in rows:
-      for i in row:
-        if len([i for i in row if i == this.currentPiece]) == 3:
-          return True
+      if len([i for i in row if i == this.currentPiece]) == 3:
+        return True
 
     return False
 
