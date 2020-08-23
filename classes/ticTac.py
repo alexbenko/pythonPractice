@@ -11,7 +11,6 @@ class TicTacToe:
     print('Tic Tac Toe Game Initialized...')
 
   def displayBoard(this):
-    print('\n')
     print('-----------Tic-Tac-Toe------------')
     print('\n')
     print(f'1. {this.row1}')
@@ -19,7 +18,6 @@ class TicTacToe:
     print(f'3. {this.row3}')
     print('\n')
     print('-----------Tic-Tac-Toe------------')
-    print('\n')
 
   def isEven(this):
     return this.moves % 2 == 0
@@ -90,8 +88,10 @@ class TicTacToe:
     if this.checkRows() or this.checkCols() or this.checkDiags():
       if this.currentPiece == 'X':
         print(f'{this.player1} is the Winner!')
+        this.displayBoard()
       else:
         print(f'{this.player2} is the Winner!')
+        this.displayBoard()
       return True
     else:
       return False
@@ -116,6 +116,7 @@ class TicTacToe:
         if row == 1:
           if this.validMove(this.row1,col):
             this.row1[col - 1] = this.currentPiece
+            this.moves += 1
             break
           else:
             print(f'A piece already exists at row: {row} and column: {col}, try a different spot')
@@ -123,26 +124,33 @@ class TicTacToe:
         elif row == 2:
           if this.validMove(this.row2,col):
             this.row2[col - 1] = this.currentPiece
+            this.moves += 1
             break
           else:
             print(f'A piece already exists at row: {row} and column: {col}, try a different spot')
             continue
-        else:
+        elif row == 3:
           if this.validMove(this.row3,col):
             this.row3[col - 1] = this.currentPiece
+            this.moves += 1
             break
-          else:
+        else:
             print(f'A piece already exists at row: {row} and column: {col}, try a different spot')
             continue
 
-      this.moves += 1
+
 
       if this.moves >= 3:
         print(f'{this.moves} total moves detected, checking for Winner...')
         if this.checkForWinner():
-          print('Game Over !')
           break
-        print('No Winner Detected,Continuing Game')
+        print('No Winner Detected,Continuing Game...')
+
+    if this.moves >= 10:
+      print('Tie Game :/')
+
+
+
 
 
 def start():
