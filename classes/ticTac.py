@@ -9,6 +9,7 @@ class TicTacToe:
 
   def __init__(this):
     print('Tic Tac Toe Game Initialized...')
+    this.render()
 
   def displayBoard(this):
     print('-----------Tic-Tac-Toe------------')
@@ -152,9 +153,4 @@ class TicTacToe:
 
 
 
-def start():
-  game = TicTacToe()
-  game.render()
-
-
-start()
+game = TicTacToe()
