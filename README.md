@@ -1,5 +1,5 @@
 # pythonPracticing
-<h2>This repo is just for me to upload python code as I'm practicing </h2>
+<h2>This repo is just for me to upload misc python code. Ranges from Udemy courses, my own snippets, leetcode, etc.</h2>
 <br/>
 
 <ol> 
